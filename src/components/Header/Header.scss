@@ -1,0 +1,31 @@
+header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0));
+  @media only screen and (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  img {
+    // display: block;
+    // justify-self: center;
+    width: 25%;
+    @media only screen and (min-width: 1024px) {
+      width: 15%;
+    }
+  }
+  .nav-desktop {
+    display: none;
+    @media only screen and (min-width: 1024px) {
+      width: 55%;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      column-gap: 15px;
+    }
+  }
+}

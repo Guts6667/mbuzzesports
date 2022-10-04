@@ -1,0 +1,56 @@
+header {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(30, 30, 30, 0)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0));
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+header img {
+  width: 25%;
+}
+
+@media only screen and (min-width: 1024px) {
+  header img {
+    width: 15%;
+  }
+}
+
+header .nav-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  header .nav-desktop {
+    width: 55%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-column-gap: 15px;
+            column-gap: 15px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

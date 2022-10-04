@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Mont Heavy";
+  src: url("/fonts/Mont/Mont-Heavy.otf") format("otf");
+
+  font-family: "Mont Bold";
+  src: url("/fonts/Mont/Mont-Bold.otf") format(("otf"));
+
+  font-family: "Mont Semi Bold";
+  src: url("/fonts/Mont/Mont-SemiBold.otf") format(("otf"));
+
+  font-family: "Mont Regular";
+  src: url("/fonts/Mont/Mont-Regular.otf") format(("otf"));
+}
+* {
+  font-family: "Mont Regular", "Mont Semi Bold", "Mont Bold", "Mont Heavy",
+    Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #030405;
+  width: 100%;
+  margin: 0;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 900;
+  list-style: 40px;
+  em {
+    font-size: 12px;
+    font-family: 600;
+  }
+}
+h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+p {
+  font-weight: 600;
+  font-size: 14px;
+}
+a {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 30px;
+    font-weight: 800;
+    em {
+      font-size: 20px;
+    }
+  }
+  h2 {
+    font-size: 50px;
+  }
+
+  p,
+  a {
+    font-size: 18px;
+  }
+}
+.btn {
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  text-decoration: none;
+  text-align: center;
+  padding: 1% 5%;
+  &-dark {
+    box-sizing: content-box;
+    border-width: 1px;
+    border-radius: 25px;
+    box-shadow: inset 1px -1px 2px 0 #5fd8fa, inset -2px -1px 1px 0px #6634da,
+      inset 0px 1px 0px 0px #5fd8fa, inset -2px -1px 1px 0px #6634da;
+    a {
+      background-color: #1e1e1e;
+      background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+}
