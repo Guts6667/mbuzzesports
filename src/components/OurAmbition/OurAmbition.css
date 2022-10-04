@@ -1,0 +1,30 @@
+.container__ourAmbition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  min-height: 100vh;
+  padding-top: 10vh;
+  background-image: url("../../../public/assets/bg-ourAmbition.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .container__ourAmbition {
+    background-position-x: -100vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container__ourAmbition h2,
+  .container__ourAmbition p {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=OurAmbition.css.map */
