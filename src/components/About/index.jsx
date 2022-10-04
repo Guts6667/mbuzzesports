@@ -1,6 +1,6 @@
 import React from "react";
-import OurAmbition from "../OurAmbition";
-import OurCompany from "../OurCompany";
+// import OurAmbition from "../OurAmbition";
+// import OurCompany from "../OurCompany";
 import "./About.scss"
 
 const About = () => {
