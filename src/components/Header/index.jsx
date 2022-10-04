@@ -29,7 +29,7 @@ const Header = () => {
                 <a href="#events">Events</a>
                 <a href="#services">Services</a>
             </nav>
-            <div className="btn btn-dark">
+            <div className="btn btn-dark btn-dark-joinUs">
                 <a href="#joinUs" >Join us</a>
             </div>
             {isOpen && (

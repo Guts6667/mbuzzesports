@@ -26,7 +26,7 @@ h1 {
 }
 
 h1 em {
-  font-size: 12px;
+  font-size: 18px;
   font-family: 600;
 }
 
@@ -42,6 +42,8 @@ p {
 
 a {
   font-size: 14px;
+  text-decoration: none;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
@@ -50,7 +52,7 @@ a {
     font-weight: 800;
   }
   h1 em {
-    font-size: 20px;
+    font-size: 24px;
   }
   h2 {
     font-size: 50px;
@@ -59,6 +61,13 @@ a {
   a {
     font-size: 18px;
   }
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
 }
 
 .btn {
@@ -85,5 +94,10 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 /*# sourceMappingURL=index.css.map */

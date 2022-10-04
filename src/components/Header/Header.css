@@ -14,6 +14,10 @@ header {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0));
 }
 
+header .btn-dark-joinUs {
+  z-index: 5;
+}
+
 @media only screen and (min-width: 1024px) {
   header {
     display: -webkit-box;
@@ -23,15 +27,21 @@ header {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  header .btn-dark {
+    margin-right: 5%;
+    padding: 0.5% 3%;
+  }
 }
 
 header img {
+  z-index: 5;
   width: 25%;
 }
 
 @media only screen and (min-width: 1024px) {
   header img {
-    width: 15%;
+    width: 10%;
+    margin-left: 5%;
   }
 }
 
@@ -41,7 +51,7 @@ header .nav-desktop {
 
 @media only screen and (min-width: 1024px) {
   header .nav-desktop {
-    width: 55%;
+    width: 60%;
     color: white;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -51,6 +61,149 @@ header .nav-desktop {
             justify-content: flex-end;
     -webkit-column-gap: 15px;
             column-gap: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .nav-desktop a {
+    text-align: center;
+  }
+}
+
+.nav-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  row-gap: 7px;
+  z-index: 3;
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav-icon {
+    display: none;
+  }
+}
+
+.nav-icon span {
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+}
+
+.nav-icon.open {
+  row-gap: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 5;
+}
+
+.nav-icon.open span:nth-child(1) {
+  position: relative;
+  background: linear-gradient(300deg, #5fd8fa 19%, #6634da 100%);
+  rotate: 45deg;
+  -webkit-transform: translate(50% 50%);
+          transform: translate(50% 50%);
+}
+
+.nav-icon.open span:nth-child(2) {
+  display: none;
+}
+
+.nav-icon.open span:nth-child(3) {
+  background: linear-gradient(50deg, #5fd8fa 19%, #6634da 100%);
+  position: relative;
+  rotate: -45deg;
+  top: -1px;
+}
+
+.section__burgerNav {
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
+  top: 0;
+  position: fixed;
+  background-image: url("../../../public/assets/bg5.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-size: 80%;
+  background-position-y: 70vh;
+  background-position-x: -10vh;
+}
+
+.section__burgerNav nav {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 30%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  -o-border-image: linear-gradient(89deg, #5fd8fa, #6634da) 1;
+     border-image: linear-gradient(89deg, #5fd8fa, #6634da) 1;
+}
+
+.section__burgerNav nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.section__burgerNav nav a:hover {
+  background: -webkit-linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__burgerNav nav a img {
+  width: 15px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .section__burgerNav {
+    display: none;
   }
 }
 /*# sourceMappingURL=Header.css.map */

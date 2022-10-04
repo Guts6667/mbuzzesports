@@ -6,6 +6,9 @@ header {
   position: fixed;
   width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0));
+  .btn-dark-joinUs {
+    z-index: 5;
+  }
   @media only screen and (min-width: 1024px) {
     display: flex;
     justify-content: space-between;
@@ -15,6 +18,7 @@ header {
     }
   }
   img {
+    z-index: 5;
     // display: block;
     // justify-self: center;
     width: 25%;
@@ -99,7 +103,7 @@ header {
   background-image: url("../../../public/assets/bg5.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  background-color: black;
   background-size: 80%;
   background-position-y: 70vh;
   background-position-x: -10vh;
@@ -110,7 +114,7 @@ header {
     justify-content: space-around;
     flex-direction: column;
     align-self: center;
-    margin-top: 25%;
+    margin-top: 30%;
     width: 70%;
     margin-left: auto;
     margin-right: auto;

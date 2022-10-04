@@ -1,14 +1,16 @@
 import React from "react";
-
+import HeroHome from "../../components/HeroHome";
+import "./Home.scss"
 
 const Home = () => {
 
 
 
     return(
-        <section>
-
-        </section>
+        <div>
+            <HeroHome />
+        </div>
+        
     )
 }
 

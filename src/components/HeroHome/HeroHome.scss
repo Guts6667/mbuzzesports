@@ -1,0 +1,21 @@
+.container__home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../../../public//assets/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  h1 {
+    em {
+      background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  span {
+    color: white;
+  }
+}

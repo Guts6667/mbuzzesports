@@ -1,0 +1,29 @@
+.container__home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-image: url("../../../public//assets/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.container__home h1 em {
+  background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container__home span {
+  color: white;
+}
+/*# sourceMappingURL=HeroHome.css.map */
