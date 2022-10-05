@@ -18,6 +18,10 @@ const Home = () => {
                 <OurCompany />
                 <OurAmbition />
                 <OurTeam />
+                <section className="container container__ourRoadmap ">
+                    <h2>Our Roadmap</h2>
+                    <img src="/assets/Roadmap.JPG" alt="Roadmap MBUZZ Esports" />
+                </section>
             </section>
             
         </div>

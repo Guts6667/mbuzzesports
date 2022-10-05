@@ -35,6 +35,11 @@ h2 {
   font-weight: 900;
 }
 
+h3 {
+  font-size: 12px;
+  font-weight: 900;
+}
+
 p {
   font-weight: 400;
   font-size: 14px;
@@ -56,6 +61,9 @@ a {
   }
   h2 {
     font-size: 50px;
+  }
+  h3 {
+    font-size: 16px;
   }
   p,
   a {

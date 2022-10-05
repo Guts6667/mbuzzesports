@@ -14,7 +14,7 @@ const OurCompany = () => {
             <div className="container__ourCompany-blockLeft">
                 <p>Mbuzz Esports is now leveraging all the know-how, network, and experience of its mother company to offer world-class innovative solutions and new experiences in the Gaming industry, both for local enterprises and the gamers community </p>
             </div>
-            <img src="/assets/mbuzzesports-bg.png" alt="logo Mbuzz esports" />
+            <img src="/assets/mbuzzesports-bg.svg" alt="logo Mbuzz esports" />
         </section>
     )
 }

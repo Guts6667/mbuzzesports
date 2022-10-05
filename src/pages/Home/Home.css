@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=Home.css.map */
+.container__ourRoadmap {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.container__ourRoadmap img {
+  width: 100%;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=Home.css.map */

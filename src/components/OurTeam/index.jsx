@@ -14,6 +14,7 @@ if(teamDatas){
     return(
         <section className="container__ourTeam container">
             <h2>Our Team & Leaders</h2>
+            <p>Our international team and leaders are a perfect combination of business, engineers, and gamers experts having in common the passion of esports and competition.</p>
             <div className="container__ourTeam-cards">
                 {teamDatas && (
                     teamDatas.map((data) => {

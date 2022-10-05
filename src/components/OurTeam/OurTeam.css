@@ -7,6 +7,20 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 10vh;
+  text-align: center !important;
+}
+
+.container__ourTeam p {
+  width: 90%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .container__ourTeam p {
+    width: 70%;
+  }
 }
 
 .container__ourTeam-cards {
@@ -16,6 +30,7 @@
   -ms-grid-rows: (2fr)[3];
   -ms-grid-columns: 45% 45%;
       grid-template: repeat(3, 2fr)/45% 45%;
+  row-gap: 5%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -26,11 +41,16 @@
     -ms-grid-rows: (2fr)[3];
     -ms-grid-columns: 25% 25% 25%;
         grid-template: repeat(3, 2fr)/25% 25% 25%;
+    row-gap: 5%;
+  }
+  .container__ourTeam-cards .cardTeam {
+    cursor: default !important;
   }
 }
 
 .container__ourTeam-cards .cardTeam {
   text-align: center;
+  position: relative;
   cursor: pointer;
   color: white;
   display: -webkit-box;
@@ -42,9 +62,11 @@
           flex-direction: column;
 }
 
-.container__ourTeam-cards .cardTeam :hover {
-  -webkit-filter: brightness(0.5);
-          filter: brightness(0.5);
+@media only screen and (max-width: 1024px) {
+  .container__ourTeam-cards .cardTeam:hover > img {
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
 }
 
 .container__ourTeam-cards .cardTeam img {
@@ -60,9 +82,7 @@
 }
 
 .container__ourTeam-cards .cardTeam-legend {
-  position: relative;
-  -ms-flex-item-align: center;
-      align-self: center;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,5 +90,32 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  top: 35%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: absolute;
+  opacity: 0;
+}
+
+.container__ourTeam-cards .cardTeam-legend span {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container__ourTeam-cards .cardTeam-legend span {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__ourTeam-cards .cardTeam-legend {
+    opacity: 1;
+    position: relative;
+    top: auto;
+  }
+}
+
+.container__ourTeam-cards .cardTeam:hover > .cardTeam-legend {
+  opacity: 1;
 }
 /*# sourceMappingURL=OurTeam.css.map */
