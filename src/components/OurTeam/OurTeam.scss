@@ -6,19 +6,28 @@
     margin-top: 10vh;
     display: grid;
     grid-template: repeat(3, 2fr) / 45% 45%;
+    row-gap: 5%;
     justify-content: space-between;
     @media only screen and (min-width: 1024px) {
       grid-template: repeat(3, 2fr) / 25% 25% 25%;
+      row-gap: 5%;
+      .cardTeam {
+        cursor: default !important;
+      }
     }
     .cardTeam {
       text-align: center;
+      position: relative;
       cursor: pointer;
       color: white;
       display: flex;
       flex-direction: column;
-      :hover {
-        filter: brightness(0.5);
+      @media only screen and (max-width: 1024px) {
+        &:hover > img {
+          filter: brightness(0.5);
+        }
       }
+
       img {
         width: 100%;
         object-fit: cover;
@@ -30,11 +39,30 @@
         background-clip: content-box, border-box;
       }
       &-legend {
-        position: relative;
-        align-self: center;
+        text-align: center;
         display: flex;
         flex-direction: column;
+        top: 35%;
+        align-self: center;
+        position: absolute;
+        opacity: 0;
+        span {
+          font-size: 12px;
+        }
+        @media only screen and (min-width: 768px) {
+          span {
+            font-size: 14px;
+          }
+        }
+        @media only screen and (min-width: 1024px) {
+          opacity: 1;
+          position: relative;
+          top: auto;
+        }
       }
+    }
+    .cardTeam:hover > .cardTeam-legend {
+      opacity: 1;
     }
   }
 }
