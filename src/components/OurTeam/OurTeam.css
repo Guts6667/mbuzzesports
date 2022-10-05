@@ -36,11 +36,24 @@
           justify-content: space-between;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .container__ourTeam-cards {
     -ms-grid-rows: (2fr)[3];
-    -ms-grid-columns: 25% 25% 25%;
-        grid-template: repeat(3, 2fr)/25% 25% 25%;
+    -ms-grid-columns: 35% 35%;
+        grid-template: repeat(3, 2fr)/35% 35%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__ourTeam-cards {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-grid-rows: (2fr)[3];
+    -ms-grid-columns: 15% 15% 15% 15%;
+        grid-template: repeat(3, 2fr)/15% 15% 15% 15%;
     row-gap: 5%;
   }
   .container__ourTeam-cards .cardTeam {

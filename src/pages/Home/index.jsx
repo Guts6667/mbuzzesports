@@ -11,10 +11,8 @@ const Home = () => {
 
 
     return(
-        <div>
+        <div >
             <HeroHome />
-            {/* <About /> */}
-            <section id="about">
                 <OurCompany />
                 <OurAmbition />
                 <OurTeam />
@@ -22,8 +20,12 @@ const Home = () => {
                     <h2>Our Roadmap</h2>
                     <img src="/assets/Roadmap.JPG" alt="Roadmap MBUZZ Esports" />
                 </section>
-            </section>
-            
+                <section className="container container__joinUs">
+                    <h2>Join Us</h2>
+                    <span>Let's build something awesome together!</span>
+                    <a href="#contact">Contact us</a>
+                    <img src="/assets/bg5.png" alt="" />
+                </section>
         </div>
         
     )

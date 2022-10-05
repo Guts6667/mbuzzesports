@@ -14,19 +14,20 @@
         "picture" : "Alex-Mourrisseau.png"
     },
     {
-        "role" : "UX Designer",
-        "firstName" : "Alexiane",
-        "lastName" : "Grieu",
-        "country" : "France",
-        "picture" : "Alexiane-Grieu.jpg"
-    },
-    {
         "role" : "Software Developer & Narrative Designer",
         "firstName" : "Rayan",
         "lastName" : "Chambet",
         "country" : "France",
         "picture" : "Rayan-Chambet.JPG"
     },
+    {
+        "role" : "UX Designer",
+        "firstName" : "Alexiane",
+        "lastName" : "Grieu",
+        "country" : "France",
+        "picture" : "Alexiane-Grieu.jpg"
+    },
+    
     {
         "role" : "Blockchain Expert Advisor",
         "firstName" : "Faissal",

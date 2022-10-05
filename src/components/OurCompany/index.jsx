@@ -3,7 +3,7 @@ import "./OurCompany.scss"
 
 const OurCompany = () => {
     return(
-        <section className="container__ourCompany container">
+        <section className="container__ourCompany container" id="about">
             
             <div className="container__ourCompany-blockRight">
             <h2>

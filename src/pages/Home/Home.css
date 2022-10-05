@@ -1,10 +1,76 @@
 .container__ourRoadmap {
   text-align: center;
-  margin-top: 250px;
+  padding-top: 200px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__ourRoadmap {
+    padding-top: 100px;
+  }
 }
 
 .container__ourRoadmap img {
   width: 100%;
   border-radius: 5px;
+}
+
+.container__joinUs {
+  max-height: 40vh;
+  padding-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.container__joinUs img {
+  width: 35%;
+  overflow: visible;
+  bottom: -5vh;
+  left: -5vh;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .container__joinUs img {
+    bottom: 0;
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__joinUs img {
+    bottom: 5vh;
+    width: 15%;
+    left: -20vh;
+  }
+}
+
+.container__joinUs span {
+  font-size: 16px;
+}
+
+.container__joinUs a {
+  font-weight: 700;
+  margin-top: 50px;
+  padding: 10px;
+  background: linear-gradient(91.72deg, #5fd8fa 9.11%, #4e74ee 58.93%, #6634da 107.73%);
+  -webkit-box-shadow: #cbcbcb96 1px 1px 7px 0px;
+          box-shadow: #cbcbcb96 1px 1px 7px 0px;
+  border-radius: 100px;
+  padding: 15px 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__joinUs span {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=Home.css.map */

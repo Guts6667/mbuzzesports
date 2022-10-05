@@ -1,8 +1,67 @@
 .container__ourRoadmap {
   text-align: center;
-  margin-top: 250px;
+  padding-top: 200px;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 100px;
+  }
   img {
     width: 100%;
     border-radius: 5px;
+  }
+}
+.container__joinUs {
+  max-height: 40vh;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  // background-image: url("../../../public/assets/bg5.png");
+  // background-repeat: no-repeat;
+  // background-attachment: initial;
+  // background-size: 70%;
+  // background-position-y: 30vh;
+  // background-position-x: center;
+  // background-size: 70%;
+  // background-position-y: 50vh;
+  // background-position-x: -15vh;
+  img {
+    width: 35%;
+    overflow: visible;
+    bottom: -5vh;
+    left: -5vh;
+    position: relative;
+    @media only screen and (min-width: 768px) {
+      bottom: 0;
+      width: 25%;
+    }
+    @media only screen and (min-width: 1024px) {
+      bottom: 5vh;
+      width: 15%;
+      left: -20vh;
+    }
+  }
+  span {
+    font-size: 16px;
+  }
+
+  a {
+    font-weight: 700;
+    margin-top: 50px;
+    padding: 10px;
+    background: linear-gradient(
+      91.72deg,
+      #5fd8fa 9.11%,
+      #4e74ee 58.93%,
+      #6634da 107.73%
+    );
+    box-shadow: #cbcbcb96 1px 1px 7px 0px;
+    border-radius: 100px;
+    padding: 15px 50px;
+  }
+  @media only screen and (min-width: 1024px) {
+    span {
+      font-size: 18px;
+    }
   }
 }
