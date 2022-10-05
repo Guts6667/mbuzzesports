@@ -1,0 +1,40 @@
+.container__ourTeam {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  &-cards {
+    margin-top: 10vh;
+    display: grid;
+    grid-template: repeat(3, 2fr) / 45% 45%;
+    justify-content: space-between;
+    @media only screen and (min-width: 1024px) {
+      grid-template: repeat(3, 2fr) / 25% 25% 25%;
+    }
+    .cardTeam {
+      text-align: center;
+      cursor: pointer;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      :hover {
+        filter: brightness(0.5);
+      }
+      img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 100%;
+        border: double 2px transparent;
+        background-image: linear-gradient(white, white),
+          linear-gradient(to top, #6634da, #4e74ee, #5fd8fa);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+      }
+      &-legend {
+        position: relative;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.container__ourTeam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10vh;
+}
+
+.container__ourTeam-cards {
+  margin-top: 10vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (2fr)[3];
+  -ms-grid-columns: 45% 45%;
+      grid-template: repeat(3, 2fr)/45% 45%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__ourTeam-cards {
+    -ms-grid-rows: (2fr)[3];
+    -ms-grid-columns: 25% 25% 25%;
+        grid-template: repeat(3, 2fr)/25% 25% 25%;
+  }
+}
+
+.container__ourTeam-cards .cardTeam {
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container__ourTeam-cards .cardTeam :hover {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.container__ourTeam-cards .cardTeam img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  border: double 2px transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), -webkit-gradient(linear, left bottom, left top, from(#6634da), color-stop(#4e74ee), to(#5fd8fa));
+  background-image: linear-gradient(white, white), linear-gradient(to top, #6634da, #4e74ee, #5fd8fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.container__ourTeam-cards .cardTeam-legend {
+  position: relative;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=OurTeam.css.map */

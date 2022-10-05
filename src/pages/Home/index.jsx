@@ -3,6 +3,7 @@ import React from "react";
 import HeroHome from "../../components/HeroHome";
 import OurAmbition from "../../components/OurAmbition";
 import OurCompany from "../../components/OurCompany";
+import OurTeam from "../../components/OurTeam";
 import "./Home.scss"
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <section id="about">
                 <OurCompany />
                 <OurAmbition />
+                <OurTeam />
             </section>
             
         </div>

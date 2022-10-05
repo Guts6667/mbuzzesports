@@ -1,0 +1,58 @@
+[
+    {
+        "role" : "CEO",
+        "firstName" : "Mokhliss",
+        "lastName" : "Barriol",
+        "country" : "France",
+        "picture" : "Mokhliss-Barriol.jpg"
+    },
+    {
+        "role" : "Game expert & COO",
+        "firstName" : "Alex",
+        "lastName" : "Mourisseau",
+        "country" : "France",
+        "picture" : "Alex-Mourrisseau.png"
+    },
+    {
+        "role" : "UX Designer",
+        "firstName" : "Alexiane",
+        "lastName" : "Grieu",
+        "country" : "France",
+        "picture" : "Alexiane-Grieu.jpg"
+    },
+    {
+        "role" : "Software Developer & Narrative Designer",
+        "firstName" : "Rayan",
+        "lastName" : "Chambet",
+        "country" : "France",
+        "picture" : "Rayan-Chambet.JPG"
+    },
+    {
+        "role" : "Blockchain Expert Advisor",
+        "firstName" : "Faissal",
+        "lastName" : "Mehrban",
+        "country" : "UK",
+        "picture" : "Faissal-Mehrban.jpeg"
+    },
+    {
+        "role" : "Esports Pro Player",
+        "firstName" : "Tony",
+        "lastName" : "Cardosso",
+        "country" : "Portugal",
+        "picture" : "Tony-Cardosso.jpg"
+    },
+    {
+        "role" : "Esports Pro Player",
+        "firstName" : "Madiha",
+        "lastName" : "Naz",
+        "country" : "UAE",
+        "picture" : "Madiha-Naz.jpeg"
+    },
+    {
+        "role" : "Social Media Community Manager",
+        "firstName" : "Matty",
+        "lastName" : "Campbell",
+        "country" : "Switzerland",
+        "picture" : "Matty-Campbell.jpg"
+    }
+]
