@@ -6,9 +6,9 @@ const Footer = () => {
     return(
         <footer className="container">
             <div className="container__footer-socials">
-                {/* <a href="">
-                    <img src="/assets/icon-tiktok.svg" alt="icon tiktok" />
-                </a> */}
+                <a href="https://www.linkedin.com/company/mbuzztech/">
+                    <img src="/assets/icon-linkedin.svg" alt="icon tiktok" />
+                </a>
                 <a href="https://www.instagram.com/mbuzztech/">
                     <img src="/assets/icon-instagram.svg" alt="icon instagram" />
                 </a>
@@ -28,6 +28,9 @@ const Footer = () => {
                 </a>
                 <a href="https://www.opera.com/fr/crypto/next">
                     <img src="/assets/Logo-OperaCrypto.svg" alt="Logo Opera Crypt" className="iconPartner"/>
+                </a>
+                <a href="https://www.linkedin.com/company/mbuzztech/">
+                    <img src="/assets/icon-linkedin.svg" alt="icon linkedin" className="iconSocial"/>
                 </a>
                 <a href="https://www.instagram.com/mbuzztech/">
                     <img src="/assets/icon-instagram.svg" alt="icon instagram" className="iconSocial"/>
