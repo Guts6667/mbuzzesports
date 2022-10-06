@@ -26,7 +26,7 @@ const Header = () => {
             <nav className="nav-desktop">
                 <Link to={'/'}>About</Link>
                 <Link to={'/vr-experience-eva'}>VR Experience EVA</Link>
-                <Link to={'/'}>100% Gaming Marketplace</Link>
+                <Link to={'/marketplace'}>100% Gaming Marketplace</Link>
                 <Link to={'/'}>Events</Link>
                 <Link to={'/'}>Services</Link>
             </nav>
@@ -42,7 +42,7 @@ const Header = () => {
                         <Link onClick={toggleBtn} to={'/vr-experience-eva'} >
                             <span>VR Experience EVA</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                         </Link>
-                        <Link onClick={toggleBtn} to={"/gaming-marketplace"} >
+                        <Link onClick={toggleBtn} to={"/marketplace"} >
                             <span>100% Gaming Marketplace</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                         </Link>
                         <Link onClick={toggleBtn} to={'/events'}>

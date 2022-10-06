@@ -1,0 +1,58 @@
+.container__marketplace {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../public/assets/bg-marketplace.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 60%;
+  margin-bottom: 10vh;
+  justify-content: space-around;
+  row-gap: 20px;
+  &-hero {
+    @media only screen and (min-width: 768px) {
+      width: 60%;
+    }
+    h1 {
+      font-size: 35px;
+      strong {
+        background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      em {
+        color: white;
+        font-size: 20px !important;
+        font-style: normal;
+        font-weight: 900;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    background-size: 25%;
+  }
+
+  &-products {
+    display: grid;
+    grid-template: repeat(3, 2fr) / 45% 45%;
+    row-gap: 5%;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../../../public/assets/bg-marketplace-2.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 60%;
+    @media only screen and (min-width: 768px) {
+      grid-template: repeat(2, 2fr) / 25% 25% 25%;
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

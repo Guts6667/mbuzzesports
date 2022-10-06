@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./index.scss";
 import Home from "./pages/Home";
+import Marketplace from "./pages/Marketplace";
 import VRExperienceEVA from "./pages/VRExperienceEVA";
 import reportWebVitals from "./reportWebVitals";
 
@@ -16,6 +17,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vr-experience-eva" element={<VRExperienceEVA />} />
+        <Route path="/marketplace" element={<Marketplace />} />
       </Routes>
       <Footer />
     </Router>
