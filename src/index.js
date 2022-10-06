@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./index.scss";
+import Events from "./pages/Events";
 import Home from "./pages/Home";
 import Marketplace from "./pages/Marketplace";
 import VRExperienceEVA from "./pages/VRExperienceEVA";
@@ -18,6 +19,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/vr-experience-eva" element={<VRExperienceEVA />} />
         <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/events" element={<Events />} />
       </Routes>
       <Footer />
     </Router>

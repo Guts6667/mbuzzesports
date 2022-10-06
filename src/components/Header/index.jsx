@@ -27,8 +27,8 @@ const Header = () => {
                 <Link to={'/'}>About</Link>
                 <Link to={'/vr-experience-eva'}>VR Experience EVA</Link>
                 <Link to={'/marketplace'}>100% Gaming Marketplace</Link>
-                <Link to={'/'}>Events</Link>
-                <Link to={'/'}>Services</Link>
+                <Link to={'/events'}>Events</Link>
+                <Link to={'/services'}>Services</Link>
             </nav>
             <div className="btn btn-dark btn-dark-joinUs">
                 <Link>Join us</Link>
