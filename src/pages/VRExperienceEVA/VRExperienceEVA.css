@@ -17,23 +17,30 @@
 
 .container__eva h1,
 .container__eva p,
-.container__eva h3,
-.container__eva video {
+.container__eva h3 {
+  width: 85%;
+}
+
+@media only screen and (min-width: 768px) {
+  .container__eva h1,
+  .container__eva p,
+  .container__eva h3 {
+    width: 75%;
+  }
+  .container__eva h1 h1,
+  .container__eva p h1,
+  .container__eva h3 h1 {
+    font-size: 30px;
+  }
+}
+
+.container__eva iframe {
   width: 85%;
 }
 
 @media only screen and (min-width: 1024px) {
-  .container__eva h1,
-  .container__eva p,
-  .container__eva h3,
-  .container__eva video {
+  .container__eva iframe {
     width: 80%;
-  }
-  .container__eva h1 h1,
-  .container__eva p h1,
-  .container__eva h3 h1,
-  .container__eva video h1 {
-    font-size: 30px;
   }
 }
 
@@ -60,13 +67,20 @@
   -webkit-text-fill-color: transparent;
 }
 
-.container__eva video {
+.container__eva iframe {
+  height: 25vh;
   border-radius: 7px;
   border: double 2px transparent;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), -webkit-gradient(linear, left bottom, left top, from(#6634da), color-stop(#4e74ee), to(#5fd8fa));
   background-image: linear-gradient(white, white), linear-gradient(to top, #6634da, #4e74ee, #5fd8fa);
   background-origin: border-box;
   background-clip: content-box, border-box;
+}
+
+@media only screen and (min-width: 768px) {
+  .container__eva iframe {
+    height: 60vh;
+  }
 }
 
 .container__eva-btn {

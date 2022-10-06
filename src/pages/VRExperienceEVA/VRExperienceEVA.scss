@@ -8,14 +8,19 @@
   margin-bottom: 10vh;
   h1,
   p,
-  h3,
-  video {
+  h3 {
     width: 85%;
-    @media only screen and (min-width: 1024px) {
-      width: 80%;
+    @media only screen and (min-width: 768px) {
+      width: 75%;
       h1 {
         font-size: 30px;
       }
+    }
+  }
+  iframe {
+    width: 85%;
+    @media only screen and (min-width: 1024px) {
+      width: 80%;
     }
   }
   h1 {
@@ -37,14 +42,17 @@
       -webkit-text-fill-color: transparent;
     }
   }
-
-  video {
+  iframe {
+    height: 25vh;
     border-radius: 7px;
     border: double 2px transparent;
     background-image: linear-gradient(white, white),
       linear-gradient(to top, #6634da, #4e74ee, #5fd8fa);
     background-origin: border-box;
     background-clip: content-box, border-box;
+    @media only screen and (min-width: 768px) {
+      height: 60vh;
+    }
   }
   &-btn {
     padding: 5px 30px;
