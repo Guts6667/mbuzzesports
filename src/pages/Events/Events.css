@@ -1,3 +1,15 @@
+.container__pageEvents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5vh;
+  padding-bottom: 10vh;
+}
+
 .container__events {
   height: 100vh;
   background-image: url("../../../public/assets/bg-events.svg");
@@ -42,7 +54,6 @@
 }
 
 .container__gitex {
-  margin-top: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,7 +157,8 @@
             justify-content: space-between;
   }
   .container__gitex iframe {
-    width: 50%;
+    width: 55%;
+    height: 400px;
   }
 }
 
@@ -174,6 +186,64 @@
 @media only screen and (min-width: 1024px) {
   .container__gitex-register {
     display: none;
+  }
+}
+
+.container__fifa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.container__fifa h2 strong {
+  background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.container__fifa img {
+  width: 100%;
+  border-radius: 7px;
+  border: double 2px transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), -webkit-gradient(linear, left bottom, left top, from(#6634da), color-stop(#4e74ee), to(#5fd8fa));
+  background-image: linear-gradient(white, white), linear-gradient(to top, #6634da, #4e74ee, #5fd8fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__fifa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container__fifa .container__fifa-header {
+    width: 40%;
+  }
+  .container__fifa img {
+    width: 50%;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 /*# sourceMappingURL=Events.css.map */

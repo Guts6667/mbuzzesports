@@ -4,7 +4,7 @@ import "./Events.scss"
 const Events = () => {
 
     return(
-        <div>
+        <div className="container__pageEvents">
             <section className="container container__events">
                 <h1><em>Tournaments and</em> Events</h1>
                 <p>Mbuzz Esports will run all over the year among the most popular event in the planet, a series of tournaments with the most popular game of the moment.</p>
@@ -27,6 +27,15 @@ const Events = () => {
                         <a href="https://visit.gitex.com/" rel="noopener noreferrer" target={"_blank"}>Register for Gitex!</a>
                     </div>
                 </div>
+            </section>
+            <section className="container container__fifa">
+                <div className="container__fifa-header">
+                    <h2>Fifa World Cup <br /><strong>2022</strong></h2>
+                    <p>Mbuzz Esports is organising one of the most exciting events during the FIFA World Cup in Qatar.</p>
+                    <p>We have combined the most download mobile game in the world, during the biggest event on the planet in the most biggest mall of Qatar. The “Mbuzz World Cup” the 29th of November 2022. You are all welcome to participate in FreeFire’s unique format tournament during the World Cup.</p>
+                    <p><strong>Stay tuned for more info very soon.</strong></p>
+                </div>
+                <img src="/assets/fifa.png" alt="" />
             </section>
         </div>
     )
