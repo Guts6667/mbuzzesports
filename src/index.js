@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./index.scss";
 import Home from "./pages/Home";
+import VRExperienceEVA from "./pages/VRExperienceEVA";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -14,6 +15,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/vr-experience-eva" element={<VRExperienceEVA />} />
       </Routes>
       <Footer />
     </Router>

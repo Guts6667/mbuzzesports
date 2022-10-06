@@ -1,0 +1,58 @@
+.container__eva {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 10px;
+  margin-bottom: 10vh;
+  h1,
+  p,
+  h3,
+  video {
+    width: 85%;
+    @media only screen and (min-width: 1024px) {
+      width: 80%;
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+  h1 {
+    strong {
+      background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 800;
+    @media only screen and (min-width: 1024px) {
+      font-size: 24px !important;
+    }
+    strong {
+      background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  video {
+    border-radius: 7px;
+    border: double 2px transparent;
+    background-image: linear-gradient(white, white),
+      linear-gradient(to top, #6634da, #4e74ee, #5fd8fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+  &-btn {
+    padding: 5px 30px;
+    border-radius: 100px;
+    box-shadow: inset 1px -1px 2px 0 #5fd8fa, inset -2px -1px 1px 0px #6634da,
+      inset 0px 1px 0px 0px #5fd8fa, inset -2px -1px 1px 0px #6634da;
+    a {
+      display: block;
+    }
+  }
+}

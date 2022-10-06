@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import './Header.scss'
 
 
@@ -23,23 +24,36 @@ const Header = () => {
         </div>
             <img src="/assets/MBUZZ-Esports-Logo.svg" alt="Logo MBUZZ Esports" />
             <nav className="nav-desktop">
-                <a href="#about">About</a>
-                <a href="#eva">VR Experience EVA</a>
-                <a href="#marketplace">100% Gaming Marketplace</a>
-                <a href="#events">Events</a>
-                <a href="#services">Services</a>
+                <Link to={'/'}>About</Link>
+                <Link to={'/vr-experience-eva'}>VR Experience EVA</Link>
+                <Link to={'/'}>100% Gaming Marketplace</Link>
+                <Link to={'/'}>Events</Link>
+                <Link to={'/'}>Services</Link>
             </nav>
             <div className="btn btn-dark btn-dark-joinUs">
-                <a href="#joinUs" >Join us</a>
+                <Link>Join us</Link>
             </div>
             {isOpen && (
                 <section className="section__burgerNav">
                     <nav>
-                        <a onClick={toggleBtn} href="#about"><span>About</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" /></a>
-                        <a onClick={toggleBtn} href="#eva"><span>VR Experience EVA</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" /></a>
-                        <a onClick={toggleBtn} href="#marketplace"><span>100% Gaming Marketplace</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" /></a>
-                        <a onClick={toggleBtn} href="#events"><span>Events</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" /></a>
-                        <a onClick={toggleBtn} href="#services"><span>Services</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" /></a>
+                        <Link onClick={toggleBtn} to={'/'}>
+                            <span>About</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                        </Link>
+                        <Link onClick={toggleBtn} to={'/vr-experience-eva'} >
+                            <span>VR Experience EVA</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                        </Link>
+                        <Link onClick={toggleBtn} to={"/gaming-marketplace"} >
+                            <span>100% Gaming Marketplace</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                        </Link>
+                        <Link onClick={toggleBtn} to={'/events'}>
+                            <span>Events</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                        </Link>
+                        <Link onClick={toggleBtn} to={"/services"}>
+                            <span>Services</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                        </Link>
+                        <Link onClick={toggleBtn} to={"/contact"}>
+                            <span>Join Us</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                        </Link>
                     </nav>
             </section>
             )}

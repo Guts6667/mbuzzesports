@@ -18,7 +18,7 @@ const Home = () => {
                 <OurTeam />
                 <section className="container container__ourRoadmap ">
                     <h2>Our Roadmap</h2>
-                    <img src="/assets/Roadmap.JPG" alt="Roadmap MBUZZ Esports" />
+                    <img src="/assets/Roadmap.svg" alt="Roadmap MBUZZ Esports" />
                 </section>
                 <section className="container container__joinUs">
                     <h2>Join Us</h2>

@@ -1,0 +1,82 @@
+.container__eva {
+  margin-top: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  row-gap: 10px;
+  margin-bottom: 10vh;
+}
+
+.container__eva h1,
+.container__eva p,
+.container__eva h3,
+.container__eva video {
+  width: 85%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__eva h1,
+  .container__eva p,
+  .container__eva h3,
+  .container__eva video {
+    width: 80%;
+  }
+  .container__eva h1 h1,
+  .container__eva p h1,
+  .container__eva h3 h1,
+  .container__eva video h1 {
+    font-size: 30px;
+  }
+}
+
+.container__eva h1 strong {
+  background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container__eva h3 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__eva h3 {
+    font-size: 24px !important;
+  }
+}
+
+.container__eva h3 strong {
+  background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container__eva video {
+  border-radius: 7px;
+  border: double 2px transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), -webkit-gradient(linear, left bottom, left top, from(#6634da), color-stop(#4e74ee), to(#5fd8fa));
+  background-image: linear-gradient(white, white), linear-gradient(to top, #6634da, #4e74ee, #5fd8fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.container__eva-btn {
+  padding: 5px 30px;
+  border-radius: 100px;
+  -webkit-box-shadow: inset 1px -1px 2px 0 #5fd8fa, inset -2px -1px 1px 0px #6634da, inset 0px 1px 0px 0px #5fd8fa, inset -2px -1px 1px 0px #6634da;
+          box-shadow: inset 1px -1px 2px 0 #5fd8fa, inset -2px -1px 1px 0px #6634da, inset 0px 1px 0px 0px #5fd8fa, inset -2px -1px 1px 0px #6634da;
+}
+
+.container__eva-btn a {
+  display: block;
+}
+/*# sourceMappingURL=VRExperienceEVA.css.map */
