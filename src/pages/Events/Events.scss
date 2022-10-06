@@ -3,6 +3,9 @@
   flex-direction: column;
   row-gap: 5vh;
   padding-bottom: 10vh;
+  @media only screen and (min-width: 1024px) {
+    row-gap: 15vh;
+  }
 }
 .container__events {
   height: 100vh;
@@ -151,6 +154,29 @@
     img {
       width: 50%;
       height: 400px;
+      object-fit: cover;
+    }
+  }
+}
+.container__tournament {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: end;
+
+  img {
+    width: 100%;
+  }
+  @media only screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    .container__tournament-header {
+      width: 50%;
+    }
+    img {
+      width: 45%;
+      //   height: 400px;
       object-fit: cover;
     }
   }

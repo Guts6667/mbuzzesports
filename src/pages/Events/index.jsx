@@ -20,7 +20,7 @@ const Events = () => {
                         </div> 
                     </div>
                 </div>    
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/zg226z81bqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zg226z81bqU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="container__gitex-register">
                     <p className="btn-call">To register and visit Gitex 2022, click here:</p>
                     <div className="container__gitex-register-btn">
@@ -35,7 +35,14 @@ const Events = () => {
                     <p>We have combined the most download mobile game in the world, during the biggest event on the planet in the most biggest mall of Qatar. The “Mbuzz World Cup” the 29th of November 2022. You are all welcome to participate in FreeFire’s unique format tournament during the World Cup.</p>
                     <p><strong>Stay tuned for more info very soon.</strong></p>
                 </div>
-                <img src="/assets/fifa.png" alt="" />
+                <img src="/assets/fifa.png" alt="Logo Fifa" />
+            </section>
+            <section className=" container container__tournament">
+                <div className="container__tournament-header">
+                    <h2>Online tournament</h2>
+                    <p>Every week we organise an online tournament in partnership with most of the biggest brands in Saudi. This will allow the region’s gaming community to participate and enrich their existing tournaments.</p>
+                </div>
+                <img src="/assets/img-gaming.png" alt="Images of VR Headset and controller" />
             </section>
         </div>
     )
