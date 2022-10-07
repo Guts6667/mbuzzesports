@@ -1,5 +1,6 @@
 .container__marketplace {
   margin-top: 15vh;
+  padding-bottom: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,10 +14,9 @@
   background-position-x: right;
   background-position-y: top;
   background-size: 60%;
-  margin-bottom: 10vh;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  row-gap: 20px;
+  row-gap: 5vh;
 }
 
 @media only screen and (min-width: 768px) {

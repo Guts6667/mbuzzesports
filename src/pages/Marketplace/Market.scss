@@ -1,5 +1,6 @@
 .container__marketplace {
   margin-top: 15vh;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -8,9 +9,8 @@
   background-position-x: right;
   background-position-y: top;
   background-size: 60%;
-  margin-bottom: 10vh;
   justify-content: space-around;
-  row-gap: 20px;
+  row-gap: 5vh;
   &-hero {
     @media only screen and (min-width: 768px) {
       width: 60%;

@@ -7,6 +7,7 @@ import "./index.scss";
 import Events from "./pages/Events";
 import Home from "./pages/Home";
 import Marketplace from "./pages/Marketplace";
+import Services from "./pages/Services";
 import VRExperienceEVA from "./pages/VRExperienceEVA";
 import reportWebVitals from "./reportWebVitals";
 
@@ -20,6 +21,7 @@ root.render(
         <Route path="/vr-experience-eva" element={<VRExperienceEVA />} />
         <Route path="/marketplace" element={<Marketplace />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
       <Footer />
     </Router>
