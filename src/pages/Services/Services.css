@@ -29,6 +29,8 @@
 }
 
 .container__services video {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   border-radius: 7px;
   border: double 2px transparent;

@@ -24,20 +24,20 @@ const Header = () => {
         </div>
             <img src="/assets/MBUZZ-Esports-Logo.svg" alt="Logo MBUZZ Esports" />
             <nav className="nav-desktop">
-                <Link to={'/'}>About</Link>
+                <Link to={'/'}>Home</Link>
                 <Link to={'/vr-experience-eva'}>VR Experience EVA</Link>
                 <Link to={'/marketplace'}>100% Gaming Marketplace</Link>
                 <Link to={'/events'}>Events</Link>
                 <Link to={'/services'}>Services</Link>
             </nav>
             <div className="btn btn-dark btn-dark-joinUs">
-                <Link>Join us</Link>
+                <Link to={'/contact'}>Join us</Link>
             </div>
             {isOpen && (
                 <section className="section__burgerNav">
                     <nav>
                         <Link onClick={toggleBtn} to={'/'}>
-                            <span>About</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                            <span>Home</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                         </Link>
                         <Link onClick={toggleBtn} to={'/vr-experience-eva'} >
                             <span>VR Experience EVA</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
@@ -52,7 +52,7 @@ const Header = () => {
                             <span>Services</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                         </Link>
                         <Link onClick={toggleBtn} to={"/contact"}>
-                            <span>Join Us</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
+                            <span>Contact</span><img src="/assets/chevron-right-solid.svg" alt="Chevron right" />
                         </Link>
                     </nav>
             </section>

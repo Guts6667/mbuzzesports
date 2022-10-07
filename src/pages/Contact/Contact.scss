@@ -1,0 +1,61 @@
+.container__contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../../public/assets/img-vr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    input {
+      height: 50px;
+      padding: 0 25px;
+    }
+    textarea {
+      height: 200px;
+      padding: 25px 25px;
+    }
+    input,
+    textarea {
+      font-weight: 700;
+      font-size: 12px;
+
+      color: white;
+      border: 0;
+      border-radius: 25px;
+      background: rgba(3, 4, 5, 0.8);
+      box-shadow: inset 1px -1px 2px 0 #5fd8fa, inset -2px -1px 1px 0px #6634da,
+        inset 0px 1px 0px 0px #5fd8fa, inset -2px -1px 1px 0px #6634da;
+    }
+
+    .submit-btn {
+      text-align: center;
+      height: 35px;
+      width: 45%;
+      align-self: flex-end;
+      background: linear-gradient(
+        91.72deg,
+        #5fd8fa 9.11%,
+        #4e74ee 58.93%,
+        #6634da 107.73%
+      );
+    }
+    @media only screen and (min-width: 768px) {
+      width: 70%;
+      .submit-btn {
+        width: 45%;
+      }
+    }
+    @media only screen and (min-width: 1024px) {
+      width: 40%;
+      .submit-btn {
+        width: 40%;
+      }
+    }
+  }
+}

@@ -8,9 +8,6 @@ fetch("/data/ourTeam.json")
 .then((res) => res.json())
 .then((res) => setTeamDatas(res));
 }, [])
-if(teamDatas){
-    console.log(teamDatas);
-}
     return(
         <section className="container__ourTeam container">
             <h2>Our Team & Leaders</h2>

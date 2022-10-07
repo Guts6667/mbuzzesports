@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import About from "../../components/About";
 import HeroHome from "../../components/HeroHome";
 import OurAmbition from "../../components/OurAmbition";
@@ -23,7 +24,7 @@ const Home = () => {
                 <section className="container container__joinUs">
                     <h2>Join Us</h2>
                     <span>Let's build something awesome together!</span>
-                    <a href="#contact">Contact us</a>
+                    <Link to={'/contact'}>Contact us</Link>
                     <img src="/assets/bg5.png" alt="" />
                 </section>
         </div>
