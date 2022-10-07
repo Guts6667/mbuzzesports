@@ -28,7 +28,7 @@ const Events = () => {
                     </div>
                 </div>
             </section>
-            <section className="container container__fifa">
+            {/* <section className="container container__fifa">
                 <div className="container__fifa-header">
                     <h2>Fifa World Cup <br /><strong>2022</strong></h2>
                     <p>Mbuzz Esports is organising one of the most exciting events during the FIFA World Cup in Qatar.</p>
@@ -36,7 +36,17 @@ const Events = () => {
                     <p><strong>Stay tuned for more info very soon.</strong></p>
                 </div>
                 <img src="/assets/fifa.png" alt="Logo Fifa" />
+            </section> */}
+
+<section className="container container__fifa">
+                <div className="container__fifa-header">
+                    <h2>Riyadh Season</h2>
+                    <p>Mbuzz Esports is organizing one of the most exciting events during the Ryadh Season 2022. We have combined the most download mobile game in the world, during the biggest gaming event on the planet in Riyadh. The “Mbuzz World Cup” in December 2022. You are all welcome to participate in FreeFire’s unique format tournament. Stay tuned! more info very soon.</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/57u56o7AWp4" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </section>
+
+            
             <section className=" container container__tournament">
                 <div className="container__tournament-header">
                     <h2>Online tournament</h2>

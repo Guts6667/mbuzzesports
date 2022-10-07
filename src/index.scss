@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 h1 {
-  font-size: 24px;
+  font-size: 35px;
   font-weight: 900;
   list-style: 40px;
   em {
@@ -40,7 +40,8 @@ h3 {
 }
 p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 25px;
 }
 a {
   font-size: 14px;
@@ -50,10 +51,10 @@ a {
 
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
     em {
-      font-size: 24px;
+      font-size: 35px;
     }
   }
   h2 {

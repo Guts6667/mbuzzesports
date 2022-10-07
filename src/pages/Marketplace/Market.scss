@@ -12,11 +12,20 @@
   justify-content: space-around;
   row-gap: 5vh;
   &-hero {
+    @media only screen and (max-width: 768px) {
+      h1 {
+        font-size: 35px;
+        em {
+          font-size: 20px !important;
+        }
+      }
+    }
+
     @media only screen and (min-width: 768px) {
       width: 60%;
     }
     h1 {
-      font-size: 35px;
+      // font-size: 35px;
       strong {
         background: linear-gradient(90.13deg, #5fd8fa 0.05%, #6634da 105.95%);
         -webkit-background-clip: text;
@@ -25,7 +34,7 @@
 
       em {
         color: white;
-        font-size: 20px !important;
+        font-size: 30px;
         font-style: normal;
         font-weight: 900;
       }

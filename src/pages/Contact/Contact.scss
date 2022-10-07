@@ -18,7 +18,7 @@
       width: 70%;
     }
     @media only screen and (min-width: 1024px) {
-      width: 40%;
+      width: 45%;
     }
     .submit-btn {
       color: white;
@@ -45,11 +45,11 @@
       padding: 0 25px;
       input {
         height: 50px;
-        padding: 0 25px;
+        padding: 0 10px;
       }
       textarea {
         height: 200px;
-        padding: 25px 25px;
+        padding: 25px 10px;
       }
       input,
       textarea {
@@ -82,5 +82,16 @@
         width: 40%;
       }
     }
+  }
+
+  .form-thanks {
+    display: flex;
+    color: white;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(3, 4, 5, 0.8);
+    box-shadow: inset 1px -1px 2px 0 #5fd8fa, inset -2px -1px 1px 0px #6634da,
+      inset 0px 1px 0px 0px #5fd8fa, inset -2px -1px 1px 0px #6634da;
   }
 }

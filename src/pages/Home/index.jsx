@@ -25,7 +25,7 @@ const Home = () => {
                     <h2>Join Us</h2>
                     <span>Let's build something awesome together!</span>
                     <Link to={'/contact'}>Contact us</Link>
-                    <img src="/assets/bg5.png" alt="" />
+                    <img src="/assets/bg5.svg" alt="" />
                 </section>
         </div>
         

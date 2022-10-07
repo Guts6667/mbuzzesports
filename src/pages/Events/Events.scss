@@ -21,6 +21,9 @@
   text-align: center;
   h1 {
     font-size: 35px;
+    em {
+      font-size: 30px !important;
+    }
   }
   h1,
   p {
@@ -31,6 +34,13 @@
     font-style: normal;
   }
   @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 40px;
+      em {
+        font-size: 35px;
+      }
+    }
+
     background-position-x: center;
   }
 }
@@ -135,7 +145,7 @@
     }
   }
 
-  img {
+  iframe {
     width: 100%;
     border-radius: 7px;
     border: double 2px transparent;
@@ -151,7 +161,7 @@
     .container__fifa-header {
       width: 40%;
     }
-    img {
+    iframe {
       width: 50%;
       height: 400px;
       object-fit: cover;

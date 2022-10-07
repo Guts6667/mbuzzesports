@@ -7,7 +7,7 @@ const HeroHome = () => {
     return(
         <section className="container container__home">
                 <h1>“Games & Esports are driving a new generation of technology companies, shaping a new era of the worldwide economy.
-                <br/>
+                <br/><br/>
                 <em>My Nation is more than ever ready to leverage the challenge.”</em>
                 </h1>
                 <br/>
