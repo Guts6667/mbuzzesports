@@ -1,15 +1,15 @@
 @font-face {
   font-family: "Mont Heavy";
-  src: url("/fonts/Mont/Mont-Heavy.otf") format("otf");
+  src: url("../public/fonts/Mont/Mont-Heavy.otf") format("opentype");
 
   font-family: "Mont Bold";
-  src: url("/fonts/Mont/Mont-Bold.otf") format(("otf"));
+  src: url("../public/fonts/Mont/Mont-Bold.otf") format(("opentype"));
 
   font-family: "Mont Semi Bold";
-  src: url("/fonts/Mont/Mont-SemiBold.otf") format(("otf"));
+  src: url("../public/fonts/Mont/Mont-SemiBold.otf") format(("opentype"));
 
   font-family: "Mont Regular";
-  src: url("/fonts/Mont/Mont-Regular.otf") format(("otf"));
+  src: url("../public/fonts/Mont/Mont-Regular.otf") format(("opentype"));
 }
 * {
   font-family: "Mont Regular", "Mont Semi Bold", "Mont Bold", "Mont Heavy",
