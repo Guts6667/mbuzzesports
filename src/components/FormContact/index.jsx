@@ -23,16 +23,16 @@ const FormContact = () => {
         (displayForm && emailSent === false) ?(
                 <form ref={form} onSubmit={sendEmail}>
                     <div>
-                        <input type="text" name="user_name"  defaultValue={'Name'}  placeholder={'John Doe'}/>
+                        <input type="text" name="user_name" placeholder={'Name'}/>
                     </div>
                      <div>
-                        <input type="email" name="user_email" defaultValue={'Email'} placeholder={'johndoe@gmail.com'} />
+                        <input type="email" name="user_email" placeholder={'Email'} />
                     </div>
                     <div>
-                        <input type="text" name="user_subject" defaultValue={'Subject'} placeholder={"Let's have a meeting"}/>
+                        <input type="text" name="user_subject" placeholder={"Subject"}/>
                     </div>
                     <div>
-                        <textarea name="message"  defaultValue={'Type your message...'} placeholder={'Hello! Is it possible to schedule a meeting on Thursday?'} />
+                        <textarea name="message" placeholder={'Type your message...'} />
                     </div>
             <input type="submit" value="Send your message" className="submit-btn" />
         </form>
