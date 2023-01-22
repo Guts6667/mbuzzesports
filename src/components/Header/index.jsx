@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Header.scss'
 
-
+/**
+ * Header
+ * @returns {JSX} React Component
+ */
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     function toggleBtn(){

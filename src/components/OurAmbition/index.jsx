@@ -1,6 +1,11 @@
 import React from "react";
 import "./OurAmbition.scss";
 
+
+/**
+ * OurAmbition
+ * @returns {JSX} React Component
+ */
 const OurAmbition = () => {
 
     return(

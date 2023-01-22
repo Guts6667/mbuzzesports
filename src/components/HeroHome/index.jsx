@@ -1,7 +1,10 @@
 import React from "react";
 import "./HeroHome.scss"
 
-
+/**
+ * HeroHome
+ * @returns {JSX} React Component
+ */
 const HeroHome = () => {
 
     return(

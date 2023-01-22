@@ -1,6 +1,11 @@
 import React from "react";
 import "./VRExperienceEVA.scss"
 
+
+/**
+ * VR EVA Page
+ * @returns {JSX} React Component
+ */
 const VRExperienceEVA = () => {
 
     return(

@@ -1,6 +1,10 @@
 import React from "react";
 import "./Market.scss"
 
+/**
+ * Marketplace Home
+ * @returns {JSX} React Component
+ */
 const Marketplace = () => {
     const datas = [
         {

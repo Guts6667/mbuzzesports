@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import './OurTeam.scss'
 
+
+/**
+ * OurTeam
+ * @returns {JSX} React Component
+ */
 const OurTeam = () => {
     const [teamDatas, setTeamDatas] = useState(undefined)
 useEffect(() => {

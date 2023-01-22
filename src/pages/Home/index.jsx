@@ -7,9 +7,11 @@ import OurCompany from "../../components/OurCompany";
 import OurTeam from "../../components/OurTeam";
 import "./Home.scss"
 
+/**
+ * Home page
+ * @returns {JSX} React Component
+ */
 const Home = () => {
-
-
 
     return(
         <div >

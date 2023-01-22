@@ -1,6 +1,11 @@
 import React from "react";
 import "./Events.scss"
 
+
+/**
+ * Events Page
+ * @returns {JSX} React Component
+ */
 const Events = () => {
 
     return(
@@ -28,15 +33,6 @@ const Events = () => {
                     </div>
                 </div>
             </section>
-            {/* <section className="container container__fifa">
-                <div className="container__fifa-header">
-                    <h2>Fifa World Cup <br /><strong>2022</strong></h2>
-                    <p>Mbuzz Esports is organising one of the most exciting events during the FIFA World Cup in Qatar.</p>
-                    <p>We have combined the most download mobile game in the world, during the biggest event on the planet in the most biggest mall of Qatar. The “Mbuzz World Cup” the 29th of November 2022. You are all welcome to participate in FreeFire’s unique format tournament during the World Cup.</p>
-                    <p><strong>Stay tuned for more info very soon.</strong></p>
-                </div>
-                <img src="/assets/fifa.png" alt="Logo Fifa" />
-            </section> */}
 
 <section className="container container__fifa">
                 <div className="container__fifa-header">

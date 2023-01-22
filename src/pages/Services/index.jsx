@@ -1,6 +1,10 @@
 import React from "react";
 import "./Services.scss"
 
+/**
+ * Services Page
+ * @returns {JSX} React Component
+ */
 const Services = () => {
     return(
         <section className="container container__services">
